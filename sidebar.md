@@ -1,0 +1,2 @@
+- [command line](/codes/command-line.md)
+- [VS Code](/codes/visual-studio-cheat-sheet.md)
