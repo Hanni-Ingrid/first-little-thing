@@ -13,6 +13,9 @@
     --theme-color   : red;
     --mark-background      : #977a21;
     --strong-color         : green;
+    --mono-hue        : 113;
+    --mono-saturation : 20%;
+    --mono-tint1      : hsl(10%, 70%, 70%); /* #b3b3b3 */
   }
   </style>
 </head>
@@ -25,7 +28,8 @@
       loadNavbar: "navbar.md",
       search: {
         placeholder: 'TYPE',
-      } 
+        noData: "couldn't find anything"
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
